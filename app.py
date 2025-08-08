@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -138,5 +138,6 @@ predicted_class = label_encoder.inverse_transform([np.argmax(prediction)])
 
 if st.button("Predict"):
     st.success(f"Predicted USCS Class: {predicted_class[0]}")
+
 
 >>>>>>> bd628e5c25d4eb83b3d2177d358c70c7f2f3ee10
